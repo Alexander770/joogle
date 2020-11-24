@@ -21,7 +21,7 @@ for i in range(6):
             'name' : 'sam',
             'index' : i,
             'score': { 
-                    'row1': 100,
+                    'row1': 300,
                     'row2' : 200
                 }
             }
