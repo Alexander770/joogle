@@ -4,12 +4,11 @@ import json
 import threading
 import time
 from multiprocessing import Process
-from queue import Queue
-from kafka import KafkaConsumer
-from time import sleep
-from typing import List
 from datetime import datetime
 from math import ceil
+from queue import Queue
+from typing import List
+from kafka import KafkaConsumer
 
 logging.basicConfig(
     # level=getattr(logging, os.getenv('LOGLEVEL', '').upper(), 'INFO'),
