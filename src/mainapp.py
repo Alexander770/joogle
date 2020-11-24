@@ -17,6 +17,7 @@ logging.basicConfig(
     format='[%(asctime)s] %(levelname)s:%(name)s:%(message)s',
     filename = 'C:\\Users\\Admin\\work\\main.log'
     #
+    #
 )
 
 epoch = datetime(1970, 1, 1)
