@@ -1,0 +1,85 @@
+{ 
+    "User": {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "FirstName": null,
+        "LastName": null,
+        "EmailAddress": null,
+        "Password": null,
+        "Phone": null,
+        "Gender": 0,
+        "BornYear": 0,
+        "IsApprovedTerms": false,
+        "IsEmailApproval": false,
+        "ProfileImageFolder": null,
+        "AccountCreatedOn": "0001-01-01T00:00:00",
+        "LastUsingOn": "0001-01-01T00:00:00",
+        "RoleId": 0,
+        "DeviceToken": null
+    },
+    "Community": {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "CommunityName": null,
+        "Location": null,
+        "CommunityGoal": null,
+        "MembersGender": 0,
+        "IsApprovedTerms": false,
+        "WhatsappNumber": null,
+        "FacebookAddress": null,
+        "Notes": null,
+        "CommunityFounder": "00000000-0000-0000-0000-000000000000",
+        "CommunityCreatedOn": "0001-01-01T00:00:00",
+        "Status": 0,
+        "ApprovingManger": "00000000-0000-0000-0000-000000000000",
+        "SecurityCode": null,
+        "LoginType": 0
+    },
+    "CommunityMember": {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "CommunityId": "00000000-0000-0000-0000-000000000000",
+        "MemberId": "00000000-0000-0000-0000-000000000000",
+        "Status": 0,
+        "JoiningDate": "0001-01-01T00:00:00",
+        "HandlingManager": "00000000-0000-0000-0000-000000000000",
+        "Role": 0
+    },
+    "Post": {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "UserId": "00000000-0000-0000-0000-000000000000",
+        "Subject": null,
+        "Content": null,
+        "ImageFolder": null,
+        "ImageName": null,
+        "YoutubeUrl": null,
+        "UploudDateTime": "0001-01-01T00:00:00",
+        "Privacy": 0,
+        "CommunityId": "00000000-0000-0000-0000-000000000000",
+        "EditDateTime": "0001-01-01T00:00:00",
+        "HandlingManager": "00000000-0000-0000-0000-000000000000",
+        "IsImportant": false
+    },
+    "Comment": {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "UserId": "00000000-0000-0000-0000-000000000000",
+        "PostId": "00000000-0000-0000-0000-000000000000",
+        "Content": null,
+        "UploudDateTime": "0001-01-01T00:00:00",
+        "EditDateTime": "0001-01-01T00:00:00",
+        "HandlingManager": "00000000-0000-0000-0000-000000000000"
+    },
+    "Like": {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "UserId": "00000000-0000-0000-0000-000000000000",
+        "PostId": "00000000-0000-0000-0000-000000000000",
+        "DateTime": "0001-01-01T00:00:00"
+    },
+    "Alert": {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "UserId": "00000000-0000-0000-0000-000000000000",
+        "Entity": 0,
+        "RecordId": "00000000-0000-0000-0000-000000000000",
+        "Content": null,
+        "Type": 0,
+        "DateTime": "0001-01-01T00:00:00",
+        "CreatedBy": "00000000-0000-0000-0000-000000000000"
+    }
+}
